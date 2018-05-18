@@ -2,7 +2,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url(login.jpg)
+    background-image: url(../Archivos/fondo1.jpg)
 }
 
 .seccionNavg{
@@ -15,6 +15,7 @@ body{
     padding: 0px;
     height: 70%;
     width: 100%;
+    
 }
 
 .Footer{
