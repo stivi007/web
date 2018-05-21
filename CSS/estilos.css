@@ -24,10 +24,9 @@ body{
     margin: 0px;
     padding: 2px;
     height: 10%;
-    width: 100%;
+    width: 99.7%;
     text-align: center;
     color: white;
-    background: rgb(20, 20, 20);
 }
 
 
@@ -38,7 +37,8 @@ body{
     top: 0;
     width: 100%;
     overflow: hidden;
-    background-color:rgba(138, 138, 141, 0.8);
+    background-color:#755C48;
+    opacity: 0.8;
     position: fixed;
 }
 
@@ -46,7 +46,6 @@ body{
     float: left;
     display: block;
     color: black;
-    border-color: black;
     text-align: center;
     font-family: Verdana;
     font-size: 20px;
@@ -55,12 +54,12 @@ body{
 }
 
 .navegacion a:hover{
-    background:black;
+    background:#EFA94A;
     color: white;
 }
 
 
-/* Menu Juegos*/
+/* Contenido Juegos*/
 .textoJh1{
     margin: 2%;
 }
@@ -81,16 +80,128 @@ body{
     border: 5px solid rgb(24, 23, 23);
 }
 
-.ContentTexto {
+.dContenidoTexto {
     height: 10%;
-    width: 100%;
+    width: 96%;
     margin: 2%;
 }
 
-.ContentTexto p{
+.dContenidoTexto p{
     margin: 0px;
     padding: 0px;
     height: 100%;
     width: 100%;
-    text-align: justify
+    text-align: justify;
+}
+
+/* Contenido Comunidad*/
+.comunidadDiv{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+}
+
+.publicacion{
+    margin: 2%;
+    padding: 0px;
+    height: 100%;
+    width: 96%;
+    text-align: justify;
+    border: 1px solid rgb(253, 253, 253);
+}
+
+.publicacion dt{
+    color: #EFA94A;
+}
+
+/*Contenido Registro*/
+.formulario{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+fieldset{
+    margin-left: 25%;
+    padding: 0px;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.botonEnviar:hover{
+    background: green;
+    color: rgb(255, 255, 255);
+}
+
+.botonBorrar:hover{
+    background: red;
+    color: rgb(255, 255, 255);
+}
+
+/* Contenido multimedia*/
+.dVideo{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.dAudio{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+video{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%;
+}
+
+audio{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 80%;
+}
+
+/*Contenido Inicio*/
+.dTablaContenido{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 75%;
+    margin-left: 13%;
+}
+
+.imgMenu{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 60%;
+}
+
+.imgTabla{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 60%;
+}
+
+button:hover{
+    background: green;
+    color: rgb(255, 255, 255);
+}
+
+.linkIntro{
+    color:white;
 }

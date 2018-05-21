@@ -24,70 +24,61 @@
     
     <Section class="Contenido">
         <!-- SECCIÓN DE CONTENIDO --> <br><br><br>
-        <h1>LOGIN</h1>
-        <body>
-                <head>
-                    <body>
-                        <h1>Register</h1><br>
-                        <style media="screen">
-                            form
-                            {
-                                width: 25%; 
-                            }
-                        </style>
-                     <center>
-                        <form>
-                            <fieldset>
-                                <div>
-                                    <label for="Name">Name</label>
-                                    <br><input id="Name" name="Name" type="text" placeholder="Ingresa tu nombre " title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br><label for="Firtsname">Firtsname</label>
-                                    <br><input id="Firtsname" name="Firtsname" type="text" placeholder="Ingresa tu apellido" title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br><label for="Password">Password</label>
-                                    <br><input id="Password" name="Password" type="password" placeholder="Ingresa un password" title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br><label for="Repassword">Respassword</label>
-                                    <br><input id="confirm_password" name="Respassword" type="password" placeholder="Confirm Password" title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br><label for="Email">Email</label>
-                                    <br><input id="Email" name="Email" type="email" placeholder="ingresa tu e-mail" title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br><label for="Pais">Pais</label>
-                                    <br><input id="Pais" name="Pais" type="text" placeholder="ingresa tu pais" title="Es obligatorio" required>
-                                </div>
-                                <div>
-                                    <br>Male<input id="Genero" name="Genero" type="radio" required>Female<input id="Genero" name="Genero" type="radio" required>
-                                </div>
-                                <div>
-                                    <br><label>Date:</label>
-                                    <input type="date" name="Fecha" min="2018-03-05" max="2018-05-25" step="2">
-                                </div>
-                                <div>
-                                    <br><input type="Reset" value="Reset">
-                                </div>
-                                <div>
-                                    <br><input type="Submit" value="Enviar">
-                                </div>
-                        </fieldset>
-                        </form>
-                    </center>
-                    </body>
-                </head>
-            </body>
+        <h1>REGISTRO</h1>
+        <div class="formulario">
+            <form>
+                <fieldset>
+                    <legend>Registrese en el siguiente Formulario</legend>
+                        <div>
+                            <label for="Name">Nombre</label>
+                            <br><input id="Name" name="Name" type="text" placeholder="Ingresa tu nombre " title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><label for="Firtsname">Apellidos</label>
+                            <br><input id="Firtsname" name="Firtsname" type="text" placeholder="Ingresa tu apellido" title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><label>Fecha de Nacimiento</label><br>
+                            <input type="date" name="Fecha" min="2018-03-05" max="2018-05-25" step="2">
+                        </div>
+                        <div>
+                            <br><label for="Pais">Seleccion su genero:</label>
+                            <br>Hombre<input id="Genero" name="Genero" type="radio" required> Mujer
+                            <input id="Genero" name="Genero" type="radio" required>Mujer 
+                            <input id="Genero" name="Genero" type="radio" required> Otro
+                        </div>
+                        <div>
+                            <br><label for="Email">Correo</label>
+                            <br><input id="Email" name="Email" type="email" placeholder="ingresa tu e-mail" title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><label for="Password">Contraseña</label>
+                            <br><input id="Password" name="Password" type="password" placeholder="Ingresa un password" title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><label for="Repassword">Confirme contraseña</label>
+                            <br><input id="confirm_password" name="Respassword" type="password" placeholder="Confirm Password" title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><label for="Pais">Pais</label>
+                            <br><input id="Pais" name="Pais" type="text" placeholder="ingresa tu pais" title="Es obligatorio" required>
+                        </div>
+                        <div>
+                            <br><input class="botonBorrar" type="Reset" value="Reset">
+                            <input class="botonEnviar" type="Submit" value="Enviar">
+                        </div><br/>
+                </fieldset>
+            </form><br>
+        </div>
     </Section>
 
     <section class="Footer">
         <!-- SECCIÓN DEL FOOTER -->
+        <hr> <!--Inserta unalinea horizontal-->
         <footer>
-                <p> Desarrollado Por Grupo "1" - ENMSoft </p>
+                <p>Por Grupo "1" - ENMSoft</p>
         </footer>
+        <hr> <!--Inserta unalinea horizontal-->
     </section>
 </body>
 </html>
